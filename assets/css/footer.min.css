@@ -1,0 +1,223 @@
+.footer {
+  margin-top: 100px;
+  background: url(../images/Vector\ Smart\ Object.png) right 2% bottom 16% no-repeat, #363636;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__container {
+  margin: 0 auto;
+  max-width: 1160px;
+  padding: 0 10px;
+}
+
+.footer__twiter-box {
+  max-width: 295px;
+  margin-top: 50px;
+  background-color: var(--white);
+}
+
+.footer__twiter-box__head {
+  background-color: var(--purple);
+}
+
+.footer__twiter-box__head-left {
+  background-color: #5634d1;
+}
+
+.fa-twitter {
+  margin: 10px;
+  font-size: 15px;
+  color: var(--white);
+  padding: 10px;
+  border: 3px solid var(--white);
+  border-radius: 50px;
+}
+
+.footer__twiter-box__head-right h3 {
+  font-family: "ProximaNova-Semibold";
+  margin-top: 11px;
+  margin-left: 16px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 18px;
+  letter-spacing: 0.008em;
+  color: var(--white);
+}
+
+.footer__twiter-box__head-right h4 {
+  font-family: "ProximaNova-Regular";
+  margin-left: 16px;
+  margin-top: 2x;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.008em;
+  color: var(--white);
+}
+
+.footer__twiter-box__news-box {
+  flex-direction: column;
+}
+
+.footer__twiter-box__news-frame {
+  margin: 20px 0 0 30px;
+}
+
+.footer__twiter-box__news-frame:last-child {
+  margin: 20px 0 19px 30px;
+}
+
+.footer__twiter-box__caption {
+  font-family: "ProximaNova-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  color: #999999;
+}
+
+.footer__twiter-box__link {
+  margin-top: 2px;
+  text-decoration: none;
+}
+
+.footer__twiter-box__date {
+  font-family: "ProximaNova-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 18px;
+  letter-spacing: -0.01em;
+  color: #555555;
+}
+
+.footer__content-box {
+  margin-left: 120px;
+  margin-top: 55px;
+}
+
+.footer__content-frame {
+  margin-right: 130px;
+}
+
+.footer__content-frame:last-child {
+  margin-right: 0;
+}
+
+.footer-title {
+  font-family: "ProximaNova-Bold";
+  margin-bottom: 15px;
+  display: flex;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: var(--orange);
+}
+
+.footer-title::before {
+  content: url(../images/Polygon\ 4.svg);
+  margin-right: 8px;
+}
+
+.footer__navigation-list-item {
+  margin-bottom: 8px;
+}
+
+.footer-link {
+  font-family: "ProximaNova-Semibold";
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer__links-title-list-item {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.footer__contact-list-item span {
+  font-family: "ProximaNova-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.footer__contact-list-item a {
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "ProximaNova-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.footer__contact-list-item .tel {
+  text-decoration: none;
+  font-family: "ProximaNova-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.footer__cooperait-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  background-color: var(--black-bg);
+}
+
+.footer__cooperait-deskr {
+  color: var(--white);
+}
+
+@media (max-width: 1000px) {
+  .footer__container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__content-box {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 30px;
+  }
+  .footer__content-frame {
+    margin-right: 10px;
+  }
+  .footer__content-frame:last-child {
+    margin-right: 0;
+  }
+  .footer__cooperait-deskr {
+    font-size: 8px;
+  }
+}
+@media (max-width: 600px) {
+  .footer-link {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 400px) {
+  .footer__content-box {
+    margin-top: 70px;
+  }
+}
